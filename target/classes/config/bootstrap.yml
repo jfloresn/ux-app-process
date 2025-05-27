@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ux-app-ia-processamiento
+  r2dbc:
+    url: r2dbc:sqlserver://SQL1003.site4now.net:1433/db_ab2333_vid
+    username: db_ab2333_vid_admin
+    password: '*Ferfc2028*'
+    pool:
+      enabled: false
+
+  profiles:
+    active: production

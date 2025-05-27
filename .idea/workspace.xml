@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e6c9426-94af-4879-963a-d6dd634c5f45" name="Changes" comment="chore: profiles ative production">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jhovny&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jfloresn/ux-app-process.git&quot;,
+    &quot;accountId&quot;: &quot;934909e4-7148-4bc2-9a34-9980e6f8bb5a&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="/opt/maven" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2oc53msxfrMQBnyaXZ0tfX1mxms" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ux-procesar.executor": "Run",
+    "Maven.ux-app-ia-processamiento [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/config" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ux-procesar" type="Application" factoryName="Application">
+      <envs>
+        <env name="SPRING_CLOUD_BOOTSTRAP_ENABLED" value="true" />
+        <env name="spring.profiles.active" value="local" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.upc.proyecto1.channel.UxAppIaProcessamientoApplication" />
+      <module name="ux-app-ia-processamiento" />
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ux-app-ia-processamiento-v1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ux-app-ia-processamiento-v1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e6c9426-94af-4879-963a-d6dd634c5f45" name="Changes" comment="" />
+      <created>1728011775110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728011775110</updated>
+    </task>
+    <task id="LOCAL-00001" summary="chore: correctivo no utiliza r2dbc">
+      <option name="closed" value="true" />
+      <created>1731168366764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731168366764</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: afinar respuesta del servicio">
+      <option name="closed" value="true" />
+      <created>1731169961596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731169961599</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore: correctivo para base de datos">
+      <option name="closed" value="true" />
+      <created>1731188290930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731188290930</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: profiles ative production">
+      <option name="closed" value="true" />
+      <created>1731191481327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731191481327</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: profiles ative production">
+      <option name="closed" value="true" />
+      <created>1731191684540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731191684540</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore: profiles ative production">
+      <option name="closed" value="true" />
+      <created>1748348090871</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748348090871</updated>
+    </task>
+    <task id="LOCAL-00007" summary="chore: profiles ative production">
+      <option name="closed" value="true" />
+      <created>1748348975578</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748348975578</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chore: profiles ative production">
+      <option name="closed" value="true" />
+      <created>1748349994255</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748349994255</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: correctivo no utiliza r2dbc" />
+    <MESSAGE value="chore: afinar respuesta del servicio" />
+    <MESSAGE value="chore: correctivo para base de datos" />
+    <MESSAGE value="chore: profiles ative production" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: profiles ative production" />
+  </component>
+</project>

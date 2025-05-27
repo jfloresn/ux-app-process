@@ -1,0 +1,108 @@
+# Archivos y carpetas de IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Archivos de configuración específicos de IntelliJ IDEA
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/dataSource.xml
+.idea/inspectionProfiles
+
+# Carpeta de salida de compilación
+out/
+target/
+bin/
+
+# Librerías descargadas (usualmente con Maven o Gradle)
+dependency-reduced-pom.xml
+
+# Archivos de Maven
+*.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Archivos de Gradle
+.gradle/
+build/
+
+# Archivos de logs
+*.log
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del entorno de ejecución
+.vscode/
+*.env
+
+# Excluir archivos temporales
+*.swp
+*~
+
+# Archivos de configuración de pruebas
+test-output/
+
+# Archivos específicos de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de compilación y generados de Java
+*.class
+*.jar
+*.war
+*.ear
+*.javadoc
+**/target/
+**/out/
+**/bin/
+
+# Archivos de configuración del compilador Java
+*.settings/
+*.factorypath
+
+
+
+# Archivos y carpetas de IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Archivos de configuración específicos de IntelliJ IDEA
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/dataSource.xml
+.idea/inspectionProfiles
+
+# Carpeta de salida de compilación
+out/
+target/
+bin/
+
+# Librerías descargadas (usualmente co

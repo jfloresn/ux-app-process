@@ -1,0 +1,8 @@
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/UxAppIaProcessamientoApplication.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/business/ProcessBusiness.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/business/ProcessNegocioImpl.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/infraestructure/database/DiagnosticoRepository.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiagnosticRegisterCommand.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/aggregate/ProcesamientoOutput.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/entity/DiagnosticEntity.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/web/ProcessController.java
