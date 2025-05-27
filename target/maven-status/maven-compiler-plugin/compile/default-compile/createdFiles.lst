@@ -7,5 +7,6 @@ com/upc/proyecto1/channel/model/entity/DiagnosticEntity$DiagnosticEntityBuilder.
 com/upc/proyecto1/channel/model/aggregate/DiagnosticRegisterCommand.class
 com/upc/proyecto1/channel/infraestructure/database/DiagnosticoRepository.class
 com/upc/proyecto1/channel/web/ProcessController.class
+com/upc/proyecto1/channel/config/GlobalCorsConfig.class
 com/upc/proyecto1/channel/UxAppIaProcessamientoApplication.class
 com/upc/proyecto1/channel/business/ProcessBusiness.class

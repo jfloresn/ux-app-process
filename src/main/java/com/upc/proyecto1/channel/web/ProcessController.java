@@ -23,7 +23,6 @@ public class ProcessController {
     return processBusiness.procesar();
   }
 
-  @CrossOrigin(origins = "http://localhost:4200")
   @PostMapping("/save")
   public Mono<DiagnosticEntity> save(@RequestBody DiagnosticRegisterCommand command) {
 
