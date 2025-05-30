@@ -1,11 +1,14 @@
 package com.upc.proyecto1.channel.business;
 
+import com.upc.proyecto1.channel.infraestructure.database.DiagnosticSortRepository;
 import com.upc.proyecto1.channel.infraestructure.database.DiagnosticoRepository;
 import com.upc.proyecto1.channel.model.aggregate.DiagnosticRegisterCommand;
 import com.upc.proyecto1.channel.model.aggregate.ProcesamientoOutput;
 import com.upc.proyecto1.channel.model.entity.DiagnosticEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.time.LocalDate;
@@ -19,6 +22,9 @@ public class ProcessNegocioImpl implements ProcessBusiness {
   @Autowired
   private DiagnosticoRepository diagnosticoRepository;
 
+  @Autowired
+  private DiagnosticSortRepository diagnosticSortRepository;
+
   @Override
   public Mono<DiagnosticEntity> save(DiagnosticRegisterCommand diagnosticRegisterCommand) {
 
@@ -29,6 +35,12 @@ public class ProcessNegocioImpl implements ProcessBusiness {
             .usuario(diagnosticRegisterCommand.getUsuario())
         .build());
 
+  }
+
+  @Override
+  public Flux<DiagnosticEntity> retrieve() {
+
+    return diagnosticSortRepository.findAll(Sort.by(Sort.Direction.DESC, "fechaHoraRegistro"));
   }
 
   @Override
