@@ -4,7 +4,11 @@
 /Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/config/GlobalCorsConfig.java
 /Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/infraestructure/database/DiagnosticSortRepository.java
 /Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/infraestructure/database/DiagnosticoRepository.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/infraestructure/database/ParameterRepository.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiagnosisStatuOutput.java
 /Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiagnosticRegisterCommand.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiseaseStateOfVineOutput.java
 /Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/aggregate/ProcesamientoOutput.java
 /Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/entity/DiagnosticEntity.java
+/Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/model/entity/ParameterEntity.java
 /Users/jhovnyflores/Documents/upc/proyecto1/desarrollo/back/ux-app-process/src/main/java/com/upc/proyecto1/channel/web/DiagnosisController.java

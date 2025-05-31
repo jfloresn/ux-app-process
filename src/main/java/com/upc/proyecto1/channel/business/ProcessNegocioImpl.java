@@ -2,9 +2,13 @@ package com.upc.proyecto1.channel.business;
 
 import com.upc.proyecto1.channel.infraestructure.database.DiagnosticSortRepository;
 import com.upc.proyecto1.channel.infraestructure.database.DiagnosticoRepository;
+import com.upc.proyecto1.channel.infraestructure.database.ParameterRepository;
+import com.upc.proyecto1.channel.model.aggregate.DiagnosisStatuOutput;
 import com.upc.proyecto1.channel.model.aggregate.DiagnosticRegisterCommand;
+import com.upc.proyecto1.channel.model.aggregate.DiseaseStateOfVineOutput;
 import com.upc.proyecto1.channel.model.aggregate.ProcesamientoOutput;
 import com.upc.proyecto1.channel.model.entity.DiagnosticEntity;
+import com.upc.proyecto1.channel.model.entity.ParameterEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
@@ -21,6 +25,9 @@ public class ProcessNegocioImpl implements ProcessBusiness {
 
   @Autowired
   private DiagnosticoRepository diagnosticoRepository;
+
+  @Autowired
+  private ParameterRepository parameterRepository;
 
   @Autowired
   private DiagnosticSortRepository diagnosticSortRepository;
@@ -41,6 +48,45 @@ public class ProcessNegocioImpl implements ProcessBusiness {
   public Flux<DiagnosticEntity> retrieve() {
 
     return diagnosticSortRepository.findAll(Sort.by(Sort.Direction.DESC, "fechaHoraRegistro"));
+  }
+
+  @Override
+  public Mono<DiagnosisStatuOutput> retrieveDiagnosisStatus() {
+
+
+    return Mono.zip(
+            parameterRepository.findById(1).map(ParameterEntity::getValor),
+            diagnosticoRepository.count()
+        )
+        .map(tuple -> {
+          String valorParametro = tuple.getT1();
+          Long cantidadDiagnosticos = tuple.getT2();
+
+          return DiagnosisStatuOutput.builder()
+              .countDiagnosis(Integer.parseInt(valorParametro))
+              .countSampleDiagnosis(cantidadDiagnosticos)
+              .build();
+        });
+  }
+
+  @Override
+  public Mono<DiseaseStateOfVineOutput> retrieveDiseaseStateOfVine() {
+    return Mono.zip(
+            parameterRepository.findById(1).map(ParameterEntity::getValor),
+            diagnosticoRepository.countByEstadoHealthy(),
+            diagnosticoRepository.countByEstadoNotHealthy()
+        )
+        .map(tuple -> {
+          String valorParametro = tuple.getT1();
+          Long countByHealthy = tuple.getT2();
+          Long countByNotHealthy = tuple.getT3();
+
+          return DiseaseStateOfVineOutput.builder()
+              .countSampleDiagnosis(Integer.parseInt(valorParametro))
+              .countHealth(countByHealthy)
+              .countDiseases(countByNotHealthy)
+              .build();
+        });
   }
 
   @Override

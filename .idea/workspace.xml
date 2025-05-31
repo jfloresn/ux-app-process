@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e6c9426-94af-4879-963a-d6dd634c5f45" name="Changes" comment="chore: profiles ative production">
+    <list default="true" id="2e6c9426-94af-4879-963a-d6dd634c5f45" name="Changes" comment="chore: list diagnosis">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/infraestructure/database/ParameterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiagnosisStatuOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiseaseStateOfVineOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/model/entity/ParameterEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/business/ProcessBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/business/ProcessBusiness.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/business/ProcessNegocioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/business/ProcessNegocioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/web/ProcessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/web/DiagnosisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/infraestructure/database/DiagnosticoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/infraestructure/database/DiagnosticoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/web/DiagnosisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/web/DiagnosisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ux-app-ia-processamiento-1.0.1.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/ux-app-ia-processamiento-1.0.1.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +82,8 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.upc.proyecto1.channel.infraestructure.database" />
+      <recent name="com.upc.proyecto1.channel.model.entity" />
+      <recent name="com.upc.proyecto1.channel.model.aggregate" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -198,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748370469368</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="chore: list diagnosis">
+      <option name="closed" value="true" />
+      <created>1748640099119</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748640099119</updated>
+    </task>
+    <task id="LOCAL-00012" summary="chore: list diagnosis">
+      <option name="closed" value="true" />
+      <created>1748640130842</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1748640130842</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +254,7 @@
     <MESSAGE value="chore: afinar respuesta del servicio" />
     <MESSAGE value="chore: correctivo para base de datos" />
     <MESSAGE value="chore: profiles ative production" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: profiles ative production" />
+    <MESSAGE value="chore: list diagnosis" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: list diagnosis" />
   </component>
 </project>
