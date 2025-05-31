@@ -63,8 +63,8 @@ public class ProcessNegocioImpl implements ProcessBusiness {
           Long cantidadDiagnosticos = tuple.getT2();
 
           return DiagnosisStatuOutput.builder()
-              .countDiagnosis(Integer.parseInt(valorParametro))
-              .countSampleDiagnosis(cantidadDiagnosticos)
+              .countDiagnosis( cantidadDiagnosticos)
+              .countSampleDiagnosis(Integer.parseInt(valorParametro))
               .build();
         });
   }

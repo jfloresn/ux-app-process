@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e6c9426-94af-4879-963a-d6dd634c5f45" name="Changes" comment="chore: list diagnosis">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/infraestructure/database/ParameterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiagnosisStatuOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiseaseStateOfVineOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/model/entity/ParameterEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/business/ProcessBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/business/ProcessBusiness.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/business/ProcessNegocioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/business/ProcessNegocioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/infraestructure/database/DiagnosticoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/infraestructure/database/DiagnosticoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/web/DiagnosisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/web/DiagnosisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ux-app-ia-processamiento-1.0.1.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/ux-app-ia-processamiento-1.0.1.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiagnosisStatuOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upc/proyecto1/channel/model/aggregate/DiagnosisStatuOutput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

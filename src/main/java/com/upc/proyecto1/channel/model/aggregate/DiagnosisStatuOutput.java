@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 @Builder
 public class DiagnosisStatuOutput {
-  private Integer countDiagnosis;
-  private Long countSampleDiagnosis;
+  private Long countDiagnosis;
+  private Integer countSampleDiagnosis;
 
 }
