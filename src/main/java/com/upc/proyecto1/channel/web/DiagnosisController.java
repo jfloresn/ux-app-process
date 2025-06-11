@@ -37,6 +37,12 @@ public class DiagnosisController {
   }
 
 
+  @GetMapping("/exists/{codigoPlantacion}")
+  public Mono<Boolean> verificarExistenciaCodigoPlantacion(@PathVariable String codigoPlantacion) {
+    return processBusiness.verificarSiExisteCodigoPlantacion(codigoPlantacion);
+  }
+
+
   @PostMapping("/save")
   public Mono<DiagnosticEntity> save(@RequestBody DiagnosticRegisterCommand command) {
 

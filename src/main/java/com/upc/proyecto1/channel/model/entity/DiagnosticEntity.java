@@ -26,5 +26,8 @@ public class DiagnosticEntity {
   private String nombreEnfermedad;
   @Column("usuario")
   private String usuario;
+  @Column("codigoPlantacion")
+  private String codigoPlantacion;
+
 
 }

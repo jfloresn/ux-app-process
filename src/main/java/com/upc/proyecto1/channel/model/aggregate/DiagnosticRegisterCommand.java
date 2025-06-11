@@ -10,5 +10,6 @@ public class DiagnosticRegisterCommand {
   String prediccion;
   String enfermedad;
   String usuario ;
+  String codigoPlantacion;
 
 }

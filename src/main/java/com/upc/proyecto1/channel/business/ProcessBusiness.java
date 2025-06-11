@@ -15,4 +15,5 @@ public interface ProcessBusiness {
   Flux<DiagnosticEntity> retrieve();
   Mono<DiagnosisStatuOutput> retrieveDiagnosisStatus();
   Mono<DiseaseStateOfVineOutput> retrieveDiseaseStateOfVine();
+  Mono<Boolean> verificarSiExisteCodigoPlantacion(String codigoPlantacion);
 }

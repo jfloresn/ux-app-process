@@ -12,4 +12,7 @@ public interface DiagnosticoRepository extends ReactiveCrudRepository<Diagnostic
   @Query("SELECT COUNT(id_diagnostic) FROM dbo.tb_vid_diagnostic WHERE nombre_enfermedad <> 'Healthy'")
   Mono<Long> countByEstadoNotHealthy();
 
+  @Query("SELECT COUNT(*) FROM dbo.tb_vid_diagnostic WHERE codigoPlantacion = :codigoPlantacion")
+  Mono<Boolean> existsByCodigoPlantacion(String codigoPlantacion);
+
 }

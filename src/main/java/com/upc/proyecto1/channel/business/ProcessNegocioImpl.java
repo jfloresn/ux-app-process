@@ -39,6 +39,7 @@ public class ProcessNegocioImpl implements ProcessBusiness {
             .fechaHoraRegistro(LocalDateTime.now())
             .prediccion(diagnosticRegisterCommand.getPrediccion())
             .nombreEnfermedad(diagnosticRegisterCommand.getEnfermedad())
+            .codigoPlantacion(diagnosticRegisterCommand.getCodigoPlantacion())
             .usuario(diagnosticRegisterCommand.getUsuario())
         .build());
 
@@ -87,6 +88,11 @@ public class ProcessNegocioImpl implements ProcessBusiness {
               .countDiseases(countByNotHealthy)
               .build();
         });
+  }
+
+  @Override
+  public Mono<Boolean> verificarSiExisteCodigoPlantacion(String codigoPlantacion) {
+    return diagnosticoRepository.existsByCodigoPlantacion(codigoPlantacion);
   }
 
   @Override
